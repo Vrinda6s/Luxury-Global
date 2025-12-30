@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Luxury Global</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Luxury Global</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <video autoplay muted loop id="hero-video">
+            <source src="videos/services-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-content">
+            <h1>Our Services</h1>
+            <h2>Curating Unforgettable Luxury Holidays</h2>
+            <p>Personalized luxury travel experiences designed for the world's most discerning travelers.</p>
+            <div class="hero-buttons">
+                <a href="contact.html" class="btn primary">Get Started</a>
+                <a href="#curations" class="btn secondary">Explore Services</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="curations">
+        <div class="container">
+            <h2>Our Signature Curations</h2>
+            <div class="curations-grid">
+                <div class="curation-item">
+                    <h3>Handpicked Luxury Hotels</h3>
+                    <p>A collection of the world's finest luxury & ultra-luxury stays—personally vetted and curated. From private island resorts to urban palaces, each property is selected for its exceptional service, unique character, and uncompromising quality.</p>
+                    <img src="images/luxury-hotel.jpg" alt="Luxury Hotel">
+                </div>
+                <div class="curation-item">
+                    <h3>Bespoke Holidays for HNI & UHNI Clients</h3>
+                    <p>Personalised itineraries crafted around your lifestyle, preferences, and celebrations. Whether it's a romantic getaway, family adventure, or corporate retreat, we design experiences that reflect your aspirations and create lasting memories.</p>
+                    <img src="images/bespoke-holiday.jpg" alt="Bespoke Holiday">
+                </div>
+                <div class="curation-item">
+                    <h3>Exclusive Privileges</h3>
+                    <p>VIP benefits, upgrades (subject to availability), personalised arrival experiences, and more. Enjoy complimentary services, priority access, and bespoke amenities that elevate your journey to extraordinary levels.</p>
+                    <img src="images/exclusive-privileges.jpg" alt="Exclusive Privileges">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="why-service">
+        <div class="why-split">
+            <div class="why-left">
+                <div class="why-image" style="background-image: url('images/why-bg.jpg');"></div>
+            </div>
+            <div class="why-right">
+                <p class="eyebrow">WHY LUXURY GLOBAL</p>
+                <h2>A Legacy of Trust in Luxury Travel</h2>
+                <p class="positioning">For travellers who value discretion, detail, and deeply personal service.</p>
+                <div class="luxury-statements">
+                    <div class="statement">
+                        <h3>23 Years of Luxury Expertise</h3>
+                        <p>A legacy built on global relationships and trust.</p>
+                    </div>
+                    <div class="statement">
+                        <h3>Trusted by HNI & Ultra-HNI Families</h3>
+                        <p>Serving elite travellers across generations.</p>
+                    </div>
+                    <div class="statement">
+                        <h3>Personally Curated by Prakash Singhal</h3>
+                        <p>Every journey designed with direct involvement.</p>
+                    </div>
+                    <div class="statement">
+                        <h3>VIP & VVIP Discretion</h3>
+                        <p>Absolute privacy and seamless handling.</p>
+                    </div>
+                    <div class="statement">
+                        <h3>Global Luxury Partnerships</h3>
+                        <p>Access to the world’s finest hotels and experiences.</p>
+                    </div>
+                    <div class="statement">
+                        <h3>24×7 High-Touch Assistance</h3>
+                        <p>Support that travels with you, wherever you go.</p>
+                    </div>
+                </div>
+                <a href="contact.html" class="btn primary">Begin Your Journey</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="destinations-service" class="section-animate" style="background-color: #ffffff; padding: 80px 0;">
+        <div class="container">
+            <h2>Featured Destinations</h2>
+            <div class="destinations-carousel">
+                <button class="carousel-btn prev" id="prev-btn-service"><</button>
+                <div class="destinations-wrapper">
+                    <div class="destinations-track">
+                        <div class="destination">
+                            <img src="images/maldives.jpg" alt="Maldives">
+                            <div class="destination-name">Maldives</div>
+                        </div>
+                        <div class="destination">
+                            <img src="images/dubai.jpg" alt="Dubai">
+                            <div class="destination-name">Dubai</div>
+                        </div>
+                        <div class="destination">
+                            <img src="images/europe.jpg" alt="Europe">
+                            <div class="destination-name">Europe</div>
+                        </div>
+                        <div class="destination">
+                            <img src="images/egypt.jpg" alt="Egypt">
+                            <div class="destination-name">Egypt</div>
+                        </div>
+                        <div class="destination">
+                            <img src="images/thailand.jpg" alt="Thailand">
+                            <div class="destination-name">Thailand</div>
+                        </div>
+                        <div class="destination">
+                            <img src="images/turkey.jpg" alt="Turkey">
+                            <div class="destination-name">Turkey</div>
+                        </div>
+                        <div class="destination">
+                            <img src="images/mauritius.jpg" alt="Mauritius">
+                            <div class="destination-name">Mauritius</div>
+                        </div>
+                        <div class="destination">
+                            <img src="images/seychelles.jpg" alt="Seychelles">
+                            <div class="destination-name">Seychelles</div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn next" id="next-btn-service">></button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <h2>Plan Your Next Luxury Journey</h2>
+            <p class="supporting">Speak directly with Prakash Singhal<br>and begin an extraordinary journey curated with care, discretion and pride.</p>
+            <a href="https://wa.me/919829012915" class="btn primary">Connect on WhatsApp</a>
+            <div class="contact-info">
+                <p>📞 +91 98290 12915  📧 euro.travel@hotmail.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
